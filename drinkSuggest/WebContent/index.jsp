@@ -14,7 +14,7 @@
 <meta charset="utf-8">
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>음료와 추천... 그 사이...</title>
+<title>음료 추천 프로젝트</title>
 <meta name="description" content="GARO is a real-estate template">
 <meta name="author" content="Kimarotec">
 <meta name="keyword"
