@@ -10,14 +10,15 @@
 ## 🎈개발 환경
 
     개발 툴 : JAVA 8 (Eclipse 2019 -12), Oracle SQL (Oracle SQL developer), Apache Tomcat	
-    <img width="409" alt="스크린샷 2022-03-26 오후 5 44 34" src="https://user-images.githubusercontent.com/96286052/160231929-b7c12b45-da33-4b3e-a7df-ca57419e5cfd.png">
+    
+  <img width="409" alt="스크린샷 2022-03-26 오후 5 44 34" src="https://user-images.githubusercontent.com/96286052/160231929-b7c12b45-da33-4b3e-a7df-ca57419e5cfd.png">
   
 
 ## 🎈주요 기능
 
 #### 💡음료 추천
 
-    ![image](https://user-images.githubusercontent.com/96286052/160522943-afa8eb97-1d03-49e7-835f-955f43e5a729.png)
+  ![image](https://user-images.githubusercontent.com/96286052/160522943-afa8eb97-1d03-49e7-835f-955f43e5a729.png)
 
     10 가지의 다양한 음료 선택 옵션 중 원하는 옵션을 선택해 음료를 추천받을 수 있습니다.
     
