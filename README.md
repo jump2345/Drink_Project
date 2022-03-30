@@ -1,4 +1,4 @@
-# Drink_Project
+# 음료 추천 웹 어플리케이션 프로젝트
 ![DrinkProject2](https://user-images.githubusercontent.com/96286052/160522553-8a0548d0-c782-4e27-a2fb-1339e71a0a8d.gif)
 
 ## 🎈프로젝트 설명 
