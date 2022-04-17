@@ -1,15 +1,14 @@
 # 음료 추천 웹 어플리케이션 프로젝트
 ![DrinkProject2](https://user-images.githubusercontent.com/96286052/160522553-8a0548d0-c782-4e27-a2fb-1339e71a0a8d.gif)
 
-## 🎈프로젝트 설명 
+## 🎈기획 의도
     다양한 브랜드의 수많은 음료 메뉴 중 선택을 어려워하는 소비자를 위해 음료 메뉴를 
     개인이 커스터마이징 옵션으로 선택해 추천 받는 웹 어플리케이션입니다.
-    음료 추천, 음료 검색, 회원들의 리뷰와 댓글을 통한 정보 공유를 할 수 있습니다!
-    MVC모델2 를 바탕으로 제작되었습니다.
+
 
 ## 🎈개발 환경
 
-    개발 툴 : JAVA 8 (Eclipse 2019 -12), Oracle SQL (Oracle SQL developer), Apache Tomcat	
+    개발 툴 : JAVA 8 (Eclipse 2019 -12), Oracle SQL (Oracle SQL developer), Apache Tomcat(9.0)
     
   <img width="409" alt="스크린샷 2022-03-26 오후 5 44 34" src="https://user-images.githubusercontent.com/96286052/160231929-b7c12b45-da33-4b3e-a7df-ca57419e5cfd.png">
   
@@ -42,7 +41,7 @@
     음료 검색은 상호명 또는 메뉴명으로 검색 가능하며, 검색 결과 목록에는 제품명, 상호명, 가격 정보를 도출합니다.
     그외 : 로그인, 회원가입, 리뷰게시판, 관리자모드
 
-## 🎈 참여 기간
+## 🎈 개발 기간
     2022. 01. 24 ~ 2022. 02. 06
     
 ## 🎈 참여 멤버
