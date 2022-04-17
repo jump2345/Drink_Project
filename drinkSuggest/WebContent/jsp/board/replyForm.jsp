@@ -6,33 +6,10 @@
 <meta charset="UTF-8">
 <title>답글 등록 페이지</title>
 <style>
-table.type02 {
-  border-collapse: separate;
-  border-spacing: 0;
-  text-align: left;
-  line-height: 1.5;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  margin : 20px 10px;
-}
-table.type02 th {
-  width: 150px;
-  padding: 10px;
-  font-weight: bold;
-  vertical-align: top;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  background: #eee;
-}
-table.type02 td {
-  width: 350px;
-  padding: 10px;
-  vertical-align: top;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
+
+ 	hr, table {
+ 		width: 80%
+ 	}
  </style>
  <script>
  	function doWrite(){
@@ -91,7 +68,7 @@ table.type02 td {
 		enctype ="multipart/form-data">	
 			<input type="hidden" name="id" value="${userVO.id }">
 			<input type="hidden" name="comNo" value="${param.no }">
-			<table class="type02">
+			<table border = "1">
 			<tr>
 				<th width ="25%">제목</th>
 				<td>

@@ -68,12 +68,12 @@
 
 	<jsp:include page="/jsp/include/topMenu.jsp" />
 	<section>
-		<div align="center" class="container">
+		<div align="center">
 			<hr>
 			<h2>검색 목록</h2>
 			<hr>
 			<br>
-				<table class="table table-striped">
+			<table border="1" class="tg">
 				<tr>
 					<th width="40%" class="tg-m9r4" style="text-align: center">제품명</th>
 					<th width="20%" class="tg-m9r4" style="text-align: center">브랜드</th>
@@ -109,9 +109,6 @@
 
 
 			</table>
-			</div>
-			</section>
-			
 			<br>
 			<footer>
 				<%@ include file="/jsp/include/footer.jsp"%>

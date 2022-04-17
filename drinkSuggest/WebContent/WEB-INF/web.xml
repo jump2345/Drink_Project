@@ -7,7 +7,7 @@
 		<servlet-class>kr.co.mlec.controller.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>propLocation</param-name>
-			<param-value>C:\Users\user\web-workspace\drinkSuggest\bean.properties</param-value>
+			<param-value>C:\Users\I\Desktop\DrinkProjectJAVA\drinkSuggest\bean.properties</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>

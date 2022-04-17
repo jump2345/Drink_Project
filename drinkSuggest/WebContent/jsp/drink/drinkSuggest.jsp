@@ -269,7 +269,7 @@
 									</div>
 
 									<hr>
-									<button type="submit" class="absolute"><h6>결과 확인하기</h6></button>
+									<button type="submit" class="absolute"><h4>결과 확인하기</h4></button>
 							</div>
 						</form>
 						<!-- End of  -->

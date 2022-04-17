@@ -24,72 +24,43 @@
 <meta charset="UTF-8">
 <title>게시판 상세 페이지</title>
 <style type="text/css">
-table.type02 {
-  border-collapse: separate;
-  border-spacing: 0;
-  text-align: left;
-  line-height: 1.5;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  margin : 20px 10px;
-}
-table.type02 th {
-  width: 150px;
-  padding: 10px;
-  font-weight: bold;
-  vertical-align: top;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  background: #eee;
-  text-align: center;
-
-}
-table.type02 td {
-  width: 700px;
-  padding: 10px;
-  vertical-align: top;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  text-align: center;
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-table.thContent {
- width: 3500px;
+.tg td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
 }
 
+.tg th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
 
-table.type3 {
-  border-collapse: collapse;
-  border-spacing: 0;
-  text-align: center;
-  line-height: 1.5;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  margin : 20px 10px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
 }
 
-table.type3 th {
-
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  
-
-  text-align: center;
-}
-table.type3 td {
-
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  text-align: center;
+.tg .tg-ltmv {
+	background-color:  #ffcd58;
+	text-align: left;
+	vertical-align: top
+	
 }
 
-
+.tg .tg-0lax {
+	text-align: left;
+	vertical-align: top
+}
 </style>
 
 <link rel="stylesheet" href="/Mission-Web/css/layout.css">
@@ -163,11 +134,6 @@ table.type3 td {
 					 
 
 
-//댓글 수정 					
-					
-					
-					
-					
 					
 //댓글삭제
  
@@ -207,38 +173,38 @@ table.type3 td {
 	<section>
 		<div align="center">
 			<hr>
-			<h2>&emsp;&emsp;리뷰 상세 보기</h2>
+			<h2>리뷰 상세 보기</h2>
 			<hr>
 			<br>
-			<table class="type02">
+			<table border='1' class="tg">
 				<tr>
-					<th >번호</th>
-					<td style="padding-left: 10px">${ board.comNo }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">번호</th>
+					<td width="500px" style="padding-left: 10px">${ board.comNo }</td>
 				</tr>
 				<tr>
-					<th>작성자</th>
-					<td style="padding-left: 10px">${ board.id }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">작성자</th>
+					<td width="500px" style="padding-left: 10px">${ board.id }</td>
 				</tr>
 				<tr>
-					<th>제목</th>
-					<td style="padding-left: 10px">${ board.comTitle }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">제목</th>
+					<td width="500px" style="padding-left: 10px">${ board.comTitle }</td>
 				</tr>
 
 				<tr>
-					<th height="200px"><br><br><br>내용</th2>
-					<td style="padding-left: 10px" >${ board.comContent }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">내용</th>
+					<td width="500px" style="padding-left: 10px">${ board.comContent }</td>
 				</tr>
 				<tr>
-					<th>조회수</th>
-					<td style="padding-left: 10px">${ board.viewCnt + 1 }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">조회수</th>
+					<td width="500px" style="padding-left: 10px">${ board.viewCnt + 1 }</td>
 				</tr>
 				<tr>
-					<th>등록일</th>
-					<td  style="padding-left: 10px">${ board.regDate }</td>
+					<th width="100px" class="tg-ltmv" style="text-align: center;">등록일</th>
+					<td width="500px" style="padding-left: 10px">${ board.regDate }</td>
 				</tr>
 				<tr>
-					<th>첨부파일</th>
-					<td style="padding-left: 10px"><c:forEach
+					<th width="100px" class="tg-ltmv" style="text-align: center;">첨부파일</th>
+					<td width="500px" style="padding-left: 10px"><c:forEach
 							items="${ fileList }" var="file">
 							<a
 								href="${ pageContext.request.contextPath}/upload/${file.fileSaveName}">
@@ -254,27 +220,38 @@ table.type3 td {
 			</table>
 
 			<br>
-			<button onclick="doAction('R')">답글</button>&emsp; 
+			<button onclick="doAction('R')">답글</button>
 			<c:if test="${ board.id eq userVO.id }">
-				<button onclick="doAction('U')">수정</button>&emsp; 
+				<button onclick="doAction('U')">수정</button>
 			</c:if>
 			<c:if test="${ board.id eq userVO.id || userVO.type == 'S'}">
-				<button onclick="doAction('D')">삭제</button>&emsp; 
+				<button onclick="doAction('D')">삭제</button>
 			</c:if>
-			<button onclick="doAction('L')">목록</button>&emsp; 
+			<button onclick="doAction('L')">목록</button>
 			<c:if test="${ board.id ne userVO.id}">
 				<button onclick="doAction('A')" id="like">좋아요</button>
 			</c:if>
 
 			<!-- 댓글  -->
 			<hr>
-		<h2>&nbsp;댓글</h2> <hr>
+			<h4>댓글창</h4>
 
+			<!-- <form method="post" action="/reply/write">
 	
+		<p>
+			<label>댓글 작성자</label> <input type="text" name="writer">
+		</p>
+		<p>
+			<textarea rows="5" cols="50" name="content"></textarea>
+		</p>
+		<p>
+			<button type="submit">댓글 작성</button>
+		</p>
+	</form>
+ -->
 
- <div class="container">
 			<div id="mention">
-				<table class="type3" >
+				<table border="1">
 					<!-- 댓글 목록 -->
 					<!-- 공유영역 등록 ..했나..? -->
 					<c:if test="${not empty requestScope.mentionList }">
@@ -282,29 +259,29 @@ table.type3 td {
 
 							<tr>
 								<!-- 아이디, 작성날짜 -->
-								<td>
+								<td width="150">
 									<div>
-										${mention.mentionId}<br>${mention.regDate}</font>
+										${mention.mentionId}<br> <font size="2" color="lightgray">${mention.regDate}</font>
 									</div>
 								</td>
 								<!-- 본문내용 -->
-								<td>
-									<div>${mention.mentionContent}</div>
+								<td width="550">
+									<div class="text_wrapper">${mention.mentionContent}</div>
 								</td>
 							
 								<!-- 버튼 -->
-								<td>
-									
+								<td width="100">
+									<div id="btn" style="text-align: center;">
+										<a href="#">[답변]</a><br>
 										<!-- 댓글 작성자만 수정, 삭제 가능하도록 -->
 										<c:if test="${mention.mentionId == sessionScope.userVO.id || userVO.type == 'S' }">
-										
 
-											<button class="updateMention" data="${mention.mentionNo }" >수정</button>
 											<button class="deleteMention" data="${mention.mentionNo }" >삭제</button>
 										</c:if>
-									
+									</div>
 								</td>
 							</tr>
+
 						</c:forEach>
 					</c:if>
 
@@ -313,20 +290,24 @@ table.type3 td {
 					<c:if test="${sessionScope.userVO !=null}">
 						<tr bgcolor="#F5F5F5">
 						
-								
+								<%--<form action="${ pageContext.request.contextPath }/mentionWrite.do"
+									method="post" name="inputForm"
+									id="writeMentionForm"> --%>
+									<!--..?  -->
+									
 									<!-- 아이디 뜨는 부분 -->
-								<td width="155px">
+								<td width="150px">
 									<div>${sessionScope.userVO.id}</div>
 
 								</td>
 								<!-- 댓글 적는 부분-->
 								<td width="550px">
 									<div>
-										<textarea name="mentionContent" id="mentionContent" rows="4" cols="70" ></textarea>
+										<textarea name="mentionContent" id="mentionContent" rows="4" cols="70"></textarea>
 									</div>
 								</td>
 								<!-- 댓글 등록 버튼 -->
-								<td width="155px">
+								<td width="100px">
 									<div id="btn" style="text-align: center;">
 										<p>
 											<button id="writeMention" >댓글등록</button>	
@@ -334,18 +315,33 @@ table.type3 td {
 										</p>
 									</div>
 								</td>
-							
+							<%--</form> --%>
 						</tr>
 					</c:if>
 
 				</table>
-				<br>
 			</div>
 		</div>
-		</div>
 
 
 
+
+		<%-- 
+ <c:if test = "${sessionScope.userVO != null}">
+    
+    <textarea rows = "3" cols = "80" id = "r_content" name = "r_content"></textarea>
+    <br>
+    
+    
+    <!-- 댓글쓰기 버튼을 클릭하면 위쪽에 있는 자바스크립트 구문이 실행되어서 컨트롤러로 맵핑됨 --><br><br>
+    
+    <button type = "button" id = "btnReply">댓글쓰기~~!~!</button>
+    </c:if>
+    
+    <!-- 댓글 목록 -->
+    <!-- 댓글이 등록이 되면 listReply에 댓글이 쌓이게 된다. -->
+    <div id = "listReply"></div>
+ --%>
 
 
 	</section>

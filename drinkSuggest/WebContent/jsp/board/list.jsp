@@ -27,7 +27,42 @@
 	rel='stylesheet' type='text/css'>
 
 <style type="text/css">
+.list {
+	border-collapse: collapse;
+	border-spacing:  3px solid #553830;
+}
 
+.list td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.list th {
+	
+   color: #553830;
+    background: #ffcd58;
+  	padding: 5px 5px;
+	
+}
+
+.list .list-9v6y {
+	background-color: #ffcd58;
+	font-family: Nanum DaHaengCe;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: top
+}
+
+.list .list-0lax {
+	text-align: center;
+	vertical-align: top
+}
 .panel-body{
 	 display: inline-block;
 }
@@ -92,24 +127,18 @@
 			var boardIdxArray = [];
 			var list = $("input:checkbox[name=deleteBoardcchk]");
 			
-			if ($("input:checkbox[name=deleteBoardcchk]:checked").each(function() {
-				boardIdxArray.push($(this).val());
-			}))
+			for(var i = 0; i<list.length; i++){
+				if(list[i].checked){
+					boardIdxArray.push(list[i].value);
+				}
+			}
 
 				if (boardIdxArray == "") {
 					alert("삭제할 리뷰를 선택해주세요.");
 				} else {
 					var answer = confirm("선택한 리뷰를 삭제하시겠습니까?");
 					if (answer) {
-						
 						alert("글 번호 " + ${board.comNo} + " 번의 리뷰를 삭제합니다.");
-						for(var i = 0; i<list.length; i++){
-							if(list[i].checked){
-								boardIdxArray.push(list[i].value);
-							}
-						}
-
-						
 						$.ajax({
 							url : '${pageContext.request.contextPath}/AdminDeleteBoard.do',
 							type : 'POST',
@@ -154,26 +183,24 @@
 	<!-- End page header -->
 
 	<section>
-		 	<div align="center" class="container">
+		<div align="center">
 			<hr>
 			<h2>리뷰 목록</h2>
 			<hr>
 			<br>
-			<table class="table table-striped">
+			<table border="1" class="list">
 				<tr>
 					<c:if test="${ userVO.type == 'S'}">
-						<th  lign="center" width="50px" class="list-9v6y">
-						<label class="checkbox-inline"> 
-						<input type="checkbox" id="allCheckBox">
-						</label>
-						</th>
+						<th><label class="checkbox-inline"> <input
+								type="checkbox" id="allCheckBox">
+						</label></th>
 					</c:if>
-					<th>번호</th>
-					<th>제목</th>
-					<th>글쓴이</th>
-					<th>좋아요</th>
-					<th>등록일</th>
-					<th>조회수</th>
+					<th align="center" width="50px" class="list-9v6y">번호</th>
+					<th align="center" width="500px" class="list-9v6y">제목</th>
+					<th align="center" width="80px" class="list-9v6y">글쓴이</th>
+					<th align="center" width="70px" class="list-9v6y">좋아요</th>
+					<th align="center" width="150px" class="list-9v6y">등록일</th>
+					<th align="center" width="70px" class="list-9v6y">조회수</th>
 				</tr>
 
 				<c:forEach items="${ list }" var="board">
@@ -183,14 +210,14 @@
 									type="checkbox" name="deleteBoardcchk" value="deleteComNo" onclick="cchkClicked()">
 							</label></td>
 						</c:if>
-						<td >${ board.comNo }</td>
+						<td align="center">${ board.comNo }</td>
 						<td><a href="javascript:doAction(${ board.comNo })"> <c:out
 									value="${ board.comTitle }" />
 						</a></td>
-						<td >${ board.id }</td>
-						<td>${ board.viewCnt }</td>
-						<td >${ board.regDate }</td>
-						<td >${ board.comLikeCnt }</td>
+						<td align="center">${ board.id }</td>
+						<td align="center">${ board.viewCnt }</td>
+						<td align="center">${ board.regDate }</td>
+						<td align="center">${ board.comLikeCnt }</td>
 
 					</tr>
 				</c:forEach>
@@ -253,8 +280,6 @@
 		%>
 
 	<!-- review search  -->
-	
-	<br><br><br>
 		<div align="center"
 			class="panel panel-default sidebar-menu wow  fadeInRight animated animated"
 			style="visibility: visible; animation-name: fadeInRight;">

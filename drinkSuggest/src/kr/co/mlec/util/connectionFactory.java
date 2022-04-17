@@ -12,7 +12,7 @@ public class connectionFactory {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String url = "jdbc:oracle:thin:@10.209.253.58:1521:xe";
 	         String user = "hr";
 	         String password = "hr";
 			conn = DriverManager.getConnection(url, user, password);

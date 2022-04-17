@@ -7,7 +7,27 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자모드 | 회원관리</title>
-
+<style>  
+body { background: #fff; }
+.list {
+  border-collapse: collapse;
+  border-top: 3px solid #553830;
+}  
+.list th {
+  color: #553830;
+  background: #ffcd58;
+}
+.list th, .list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.list th:first-child, .list td:first-child {
+  border-left: 0;
+}
+.list th:last-child, .list td:last-child {
+  border-right: 0;
+}
+</style>
 <link
 	href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800'
 	rel='stylesheet' type='text/css'>
@@ -82,7 +102,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<div class="container">
 			<div class="row">
 				<div class="page-head-content">
-					<h1 class="page-title">관리자모드 회원 관리</h1>
+					<h1 class="page-title"><strong>관리자모드 회원 관리</strong></h1>
 			</div>
 		</div>
 	</div>
@@ -90,12 +110,12 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- End page header -->
 
 	<section>
-			<div align="center" class="container">
+		<div align="center">
 			<div class="page-head-content" align="center">
 				<hr>
 				<h1 class="page-title">회원 목록</h1>
 				<hr>
-				 <table class="table table-striped">
+				<table border="1" class="list">
 					<tr id="tr1">
 						<th width="7%"></th>
 						<th width="20%">아이디</th>
@@ -114,11 +134,17 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 							<input type="checkbox" name="cchk" onclick="cchkClicked()" value="${ memberlist.id }">
 							</label> 
 						</td>
-							<td id="td2">${ memberlist.id }</td>
-							<td id="td3">${ memberlist.name }</td>
-							<td id="td4">${ memberlist.pw }</td>
-							<td id="td5">${ memberlist.email }</td>
-							<td id="td6">${ memberlist.tel }</td>
+							<td id="td2"><input type="text" value="${ memberlist.id }"
+								name=id/></td>
+							<td id="td3"><input type="text" value="${ memberlist.name }"
+								name="name" /></td>
+							<td id="td4"><input type="text" value="${ memberlist.pw }"
+								name="name" /></td>
+							<td id="td5"><input type="text" value="${ memberlist.email }"
+								name="email" /></td>
+							<td id="td6"><input type="text"
+								value="${ memberlist.tel }"
+								name="tel" /></td>
 							<td><input type="hidden" value="${ memberlist.id }" name=id${status.index} /></td>
 								
 						</tr>

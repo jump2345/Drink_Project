@@ -17,7 +17,27 @@
 <link
 	href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800'
 	rel='stylesheet' type='text/css'>
-
+<style>  
+body { background: #fff; }
+.list {
+  border-collapse: collapse;
+  border-top: 3px solid #553830;
+}  
+.list th {
+  color: #553830;
+  background: #ffcd58;
+}
+.list th, .list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.list th:first-child, .list td:first-child {
+  border-left: 0;
+}
+.list th:last-child, .list td:last-child {
+  border-right: 0;
+}
+</style>
 <jsp:include page="/jsp/include/topMenu.jsp" />
 
 </head>
@@ -34,8 +54,8 @@
 	<!-- End page header -->
 	<br>
 	<br>
- 	<div align="center" class="container">
-    <table class="table table-striped">
+ 	<div align="center">
+    <table border="1" class="list">
     <div align="center"
 			class="panel panel-default sidebar-menu wow  fadeInRight animated animated"
 			style="visibility: visible; animation-name: fadeInRight;">
@@ -44,18 +64,18 @@
 			</div>
 		</div>
             <tr>
-	               <th> ◻ ︎메뉴 이름 </th>
-	               <th> ◻ 아이스/핫 </th>  
-	               <th> ◻ 커피 </th>
-	               <th> ◻ 물 or 우유 </th>           
-	               <th> ◻ 티 </th>            
-	               <th> ◻ 콜드브루 종류 </th>            
-	               <th> ◻ 블렌디드  </th>            
-	               <th> ◻ 토핑 </th>            
-	               <th> ◻ 시럽 </th>            
-	               <th> ◻ 펄  </th>            
-	               <th> ◻ 병음료 </th>            
-	               <th> ◻ 가격 </th>            
+	               <th width="20%">&nbsp; ◻ ︎메뉴 이름 </th>
+	               <th width="7%">&nbsp; ◻ 아이스/핫 </th>  
+	               <th width="7%">&nbsp; ◻ 커피 </th>
+	               <th width="7%">&nbsp; ◻ 물 or 우유 </th>           
+	               <th width="7%">&nbsp; ◻ 티 </th>            
+	               <th width="7%">&nbsp; ◻ 콜드브루 종류 </th>            
+	               <th width="7%">&nbsp; ◻ 블렌디드  </th>            
+	               <th width="7%">&nbsp; ◻ 토핑 </th>            
+	               <th width="7%">&nbsp; ◻ 시럽 </th>            
+	               <th width="7%">&nbsp; ◻ 펄  </th>            
+	               <th width="7%">&nbsp; ◻ 병음료 </th>            
+	               <th width="7%">&nbsp; ◻ 가격 </th>            
 	            </tr>
             <c:forEach items="${ drinkListG }" var ="drinkListG">
              	<tr>
@@ -83,7 +103,6 @@
 	            <jsp:param value="${paging.next}" name="next" />
          	</jsp:include>
          <br>
-   </div>
    </div>
 	<br>
 	<br>

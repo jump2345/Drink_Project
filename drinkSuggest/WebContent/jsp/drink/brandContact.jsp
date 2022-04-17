@@ -45,7 +45,7 @@
 		class="panel panel-default sidebar-menu wow  fadeInRight animated animated"
 		style="visibility: visible; animation-name: fadeInRight;">
     	<div class="panel-heading">
-			<h5 class="panel-title">MAP</h5>
+			<h5 class="panel-title">맵 </h5>
 		</div>
 	</div>
 	
@@ -119,8 +119,12 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <h3><i class="fa fa-map-marker"></i> 주소</h3>
-                                    <p>Seoul Software Academy, SeSAC 청년취업사관학교
-                                    
+                                    <p>새싹...
+                                        <br>금천구 가산로 70...
+                                        <br>
+                                        <strong>구로디지털단지......</strong>
+                                        <br>사실은 6번버스를 타야 올 수 있는..
+                                        <br>도보 30분 거리
                                     </p>
                                 </div>
                                 <!-- /.col-sm-4 -->

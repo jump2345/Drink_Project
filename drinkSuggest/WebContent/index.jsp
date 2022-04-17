@@ -179,7 +179,76 @@
 			</div>
 		</div>
 
-	
+		<!--다른부분-->
+		<div class="testimonial-area recent-property"
+			style="background-color: #FCFCFC; padding-bottom: 15px;">
+			<div class="container">
+				<div class="row">
+					<div
+						class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+
+
+						<!-- /.feature title -->
+						<h2>F4 구성원 소개</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="row testimonial">
+						<div class="col-md-12">
+							<div id="testimonial-slider">
+								<div class="item">
+									<div class="client-text">
+										<p>F4 리더 구준표</p>
+										<h4>
+											<strong>이신혜 </strong><i>Web developer</i>
+										</h4>
+									</div>
+									<div class="client-face wow fadeInRight" data-wow-delay=".9s">
+										<img src="assets/img/liger.jpg" alt="">
+									</div>
+								</div>
+								<div class="item">
+									<div class="client-text">
+										<p>F4 프린스송</p>
+										<h4>
+											<strong>최현정</strong><i>Web developer</i>
+										</h4>
+									</div>
+									<div class="client-face">
+										<img src="assets/img/kkangkkang2.png" alt="">
+									</div>
+								</div>
+								<div class="item">
+									<div class="client-text">
+										<p>F4 이정선배</p>
+										<h4>
+											<strong>원윤서</strong><i>Web developer</i>
+										</h4>
+									</div>
+									<div class="client-face">
+										<img src="assets/img/geoji.png" alt="">
+									</div>
+								</div>
+								<div class="item">
+									<div class="client-text">
+										<p>F4 명예소방관</p>
+										<h4>
+											<strong>최윤선</strong><i>Web Developer</i>
+										</h4>
+									</div>
+									<div class="client-face">
+										<img src="assets/img/gwangsu.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
 
 	<footer>
 		<jsp:include page="/jsp/include/footer.jsp" />

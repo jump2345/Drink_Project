@@ -7,7 +7,27 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자모드 | 음료관리</title>
-
+<style>  
+body { background: #fff; }
+.list {
+  border-collapse: collapse;
+  border-top: 3px solid #553830;
+}  
+.list th {
+  color: #553830;
+  background: #ffcd58;
+}
+.list th, .list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.list th:first-child, .list td:first-child {
+  border-left: 0;
+}
+.list th:last-child, .list td:last-child {
+  border-right: 0;
+}
+</style>
 <link
 	href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800'
 	rel='stylesheet' type='text/css'>
@@ -160,12 +180,12 @@
 	<section>
 		<form>
 			<input type="hidden" name="dk_name" value="${ drink.dk_name }" />
-			<div align="center" class="container">
+			<div align="center">
 				<div class="page-head-content" align="center">
 					<hr>
-					<h1 class="page-title">음료 목록</h1>
+					<h1 class="page-title"><strong>음료 목록</strong></h1>
 					<hr>
-					 <table class="table table-striped">
+					<table border="1" class="list">
 						<tr>
 							<th width="3%"></th>
 							<th width="9%">메뉴 이름</th>

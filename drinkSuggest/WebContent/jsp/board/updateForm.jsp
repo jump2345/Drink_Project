@@ -11,38 +11,43 @@
 <head>
 <meta charset="UTF-8">
 <title>글 수정 페이지</title>
-
 <style type="text/css">
-table.type02 {
-	border-collapse: separate;
+.tg {
+	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.tg td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg .tg-ltmv {
+	background-color: #ffcd58;
 	text-align: left;
-	line-height: 1.5;
-	border-top: 1px solid #ccc;
-	border-left: 1px solid #ccc;
-	margin: 20px 10px;
+	vertical-align: top
 }
 
-table.type02 th {
-	width: 150px;
-	padding: 10px;
-	font-weight: bold;
-	vertical-align: top;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #fff;
-	border-left: 1px solid #fff;
-	background: #eee;
-}
-
-table.type02 td {
-	width: 350px;
-	padding: 10px;
-	vertical-align: top;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+.tg .tg-0lax {
+	text-align: left;
+	vertical-align: top
 }
 </style>
+
 
 
 
@@ -108,7 +113,8 @@ table.type02 td {
 			<%-- 	<input type="hidden" name="id" value="${ userVO.id }"> --%>
 
 
-			<table class="type02">
+
+			<table border="1" class="tg">
 				<tr>
 					<th width="100px" class="tg-ltmv"
 						style="text-align: center; font: bold;">번호</th>

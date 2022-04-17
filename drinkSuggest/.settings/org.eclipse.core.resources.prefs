@@ -1,3 +1,5 @@
 eclipse.preferences.version=1
 encoding//WebContent/jsp/drink/drinkMenu.jsp=UTF-8
 encoding//WebContent/jsp/drink/suggestResult.jsp=UTF-8
+encoding//src/kr/co/mlec/board/controller/BoardReplyController.java=UTF-8
+encoding//src/kr/co/mlec/board/controller/BoardWriteController.java=UTF-8

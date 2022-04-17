@@ -99,12 +99,12 @@ if(<%=strResult1 %> == "" || <%=strResult1 %> == null || <%=strResult1 %> == 'nu
 			class="panel panel-default sidebar-menu wow  fadeInRight animated animated"
 			style="visibility: visible; animation-name: fadeInRight;">
 	    	<div class="panel-heading">
-				<h5 class="panel-title">옵션에 따른 음료 추천 결과</h5> 
+				<h5 class="panel-title">옵션에 따른 음료 추천 결과</h5>
 			</div>
 		</div>
 	
-		<br>
-		<div align ="center" class="container">
+		
+		<div align ="center" class="row">
 			<c:forEach items="${ drinks }" var="drink">
 				<div class="col-xs-3">
 					<strong> ${fn:substring(drink, 0, fn:length(drink)-2) }</strong><br>
@@ -112,17 +112,16 @@ if(<%=strResult1 %> == "" || <%=strResult1 %> == null || <%=strResult1 %> == 'nu
 			</c:forEach>
 	   </div>
 	   <br>
-
+	   
    <!-- option list -->
    <hr>
    <div align="center"
 		class="panel panel-default sidebar-menu wow  fadeInRight animated animated"
 		style="visibility: visible; animation-name: fadeInRight;">
     	<div class="panel-heading">
-			<h5 class="panel-title">선택한 옵션 목록</h5>  
+			<h5 class="panel-title">선택한 옵션 목록</h5>
 		</div>
 	</div>
-	<br>
 	<div class="option">
   			  <h4 align="center">
 			
@@ -161,8 +160,6 @@ if(<%=strResult1 %> == "" || <%=strResult1 %> == null || <%=strResult1 %> == 'nu
    ${ result }
    </div>
  
- <br>
- <br>
    
    <!-- Footer area-->
 <footer>

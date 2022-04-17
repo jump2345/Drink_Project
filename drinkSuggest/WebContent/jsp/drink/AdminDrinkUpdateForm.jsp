@@ -14,7 +14,8 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자 모드 음료 수정</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 
 <script>

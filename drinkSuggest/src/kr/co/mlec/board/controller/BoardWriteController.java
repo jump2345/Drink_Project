@@ -23,7 +23,7 @@ public class BoardWriteController implements Controller {
 
 		request.setCharacterEncoding("utf-8");
 
-		String saveFolder = "C:\\Users\\user\\web-workspace\\drinkSuggest\\WebContent\\upload";
+		String saveFolder = "C:\\Users\\I\\Desktop\\DrinkProjectJAVA\\drinkSuggest\\WebContent\\upload";
 
 		MultipartRequest multi = new MultipartRequest(request, saveFolder, 1024 * 1024 * 3, "utf-8",
 				new SesacFileNamePolicy());
@@ -40,7 +40,7 @@ public class BoardWriteController implements Controller {
 		System.out.print("controller : " + board);
 
 		
-		// 첨부파일 추출(file_ori_name, file_save_name, file_size) ==> tbl_board_file 저장
+		// 泥⑤��뙆�씪 異붿텧(file_ori_name, file_save_name, file_size) ==> tbl_board_file ���옣
 		
 		List<BoardFileVO> fileList = new ArrayList<>();
 		Enumeration<String> files = multi.getFileNames();
