@@ -26,7 +26,7 @@
 	position: relative;
 	left: 500px;
 	bottom: 120px;
-	width: 200px;
+	width: 201px;
 	height: 100px;
 
 }
