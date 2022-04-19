@@ -30,13 +30,8 @@
 
 
 	<!-- 회원가입 스크립트 -->
-	<!-- <할거>
-1.id중복이면 안되게
-2.글자수제한
-3.핸드폰 번호
-
-
- -->
+	
+ 
 
 	<script>
 	
@@ -82,23 +77,13 @@
 				return false;
 			}
 
-		/* 	if (obj.name.length<2 || obj.name.length>10) {
-				alert("이름을 2~10자 이내로 입력해주세요.");
-				obj.name.focus();
-				return false
-			} */
-
 			if (obj.email.value == "") {
 				alert("이메일을 입력하세요.");
 				obj.email.focus();
 				return false;
 			}
 
-			/*  if (obj.email.value('@') == -1) {
-				alert("이메일을 올바르게 입력해주세요.")
-				obj.email.focus();
-				return false;
-			} */
+			
 
 			if (obj.tel.value == "") {
 				alert("전화번호를 입력하세요.");
@@ -126,95 +111,7 @@
 		function idCheck() {
 			window.open("${pageContext.request.contextPath }/idCheckForm.do", "idwin", "width=400, height=350");
 		}
-		/*
-		$(function(){
-
-			$("#register-form").validate({
-
-			
-
-			submitHandler: function() {
-
-			var f = confirm("회원가입을 완료하겠습니까?");
-
-			if(f){
-
-			return true;
-
-			} else {
-
-			return false;
-
-			}
-
-			},
-            //규칙
-            rules: {
-                id: {
-                    required : true,
-                    minlength : 5,
-                    /* remote: "/check_id.jsp" */
-                    
-           /*      },
-                pw: {
-                    required : true,
-                    minlength : 3
-                },
-                pwCheck: {
-                    required : true,
-                    minlength : 3,
-                    equalTo : pw
-                },
-                name: {
-                    required : true,
-                    minlength : 2
-                },
-              
-                email: {
-                    required : true,
-                    minlength : 2,
-                    email : true
-                },
-                tel: {
-                    digits : true
-                },
-                
-           
-            //규칙체크 실패시 출력될 메시지
-            messages : {
-                id: {
-                    required : "필수로입력하세요",
-                    minlength : "최소 {0}글자이상이어야 합니다",
-                    remote : "존재하는 아이디입니다"
-                },
-                pw: {
-                    required : "필수로입력하세요",
-                    minlength : "최소 {0}글자이상이어야 합니다"
-                },
-                repassword: {
-                    required : "필수로입력하세요",
-                    minlength : "최소 {0}글자이상이어야 합니다",
-                    equalTo : "비밀번호가 일치하지 않습니다."
-                },
-                name: {
-                    required : "필수로입력하세요",
-                    minlength : "최소 {0}글자이상이어야 합니다"
-                },
-                
-                email: {
-                    required : "필수로입력하세요",
-                    minlength : "최소 {0}글자이상이어야 합니다",
-                    email : "메일규칙에 어긋납니다"
-                },
-                tel: {
-                    digits : "숫자만입력하세요"
-                },
-               
-            }
-           });
-		});
-	});
-	*/
+		
 	
 	
 	</script>
@@ -222,7 +119,7 @@
 
 
 
-	<!-- 	로그인 스크립트  안먹힘....  -->
+	<!-- 	로그인 스크립트 -->
 	<script>
 
 	
@@ -355,12 +252,7 @@
 									</a>
 								</c:if>
 
-								<!--    ...경고창.....? c if 조건 탑메뉴 조건이랑 겹쳐서 바꾸면 될거같은데 어케할지모르겟음
-								onsubmit="return checkForm()"
-                        
-                        <script>
-                              alert('<c:out value="다시 입력해주세요"/>');
-                           </script> -->
+								
 
 
 
@@ -369,13 +261,7 @@
 						</form>
 						<br>
 
-						<h2>KAKAO</h2>
-						<ul>
-							<a href="${pageContext.request.contextPath}/kakaologin.do"> 
-							<img src="https://m.uppear.co.kr/data/skin/mobile/moment_m/new/img/kakao_3.png"
-								style="height: 60px; width: auto;"></a>
-
-						</ul>
+						
 					</div>
 				</div>
 			</div>
