@@ -8,7 +8,8 @@
 
 ## 🎈개발 환경
 
-    개발 툴 : JAVA 8 (Eclipse 2019 -12), Oracle SQL (Oracle SQL developer), Apache Tomcat(9.0)
+    개발 툴 : JDK8, Eclipse(2019 -12), Oracle(SQL developer), Apache Tomcat(9.0)
+    주요 기술 : JAVA, JavaScript, JSP, J-Query, Ajax, HTML/CSS
     
   <img width="409" alt="스크린샷 2022-03-26 오후 5 44 34" src="https://user-images.githubusercontent.com/96286052/160231929-b7c12b45-da33-4b3e-a7df-ca57419e5cfd.png">
   
