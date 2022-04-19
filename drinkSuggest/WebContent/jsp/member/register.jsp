@@ -43,7 +43,7 @@
 			}
 		
 			if(!obj.flag) {
-				alert('아이디 중복체크릃 해주세요')
+				alert('아이디 중복체크를 해주세요')
 				return false
 			}
 
