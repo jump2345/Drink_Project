@@ -69,6 +69,18 @@
 
 
 
+ ### 💡관리자 모드
+ ![image](https://user-images.githubusercontent.com/87368059/169970190-7f293401-e756-438f-af09-6887fae2b015.png)
+ 
+ ![image](https://user-images.githubusercontent.com/87368059/169970236-692fa3a9-a9b5-4c3f-a71f-faa3e4ac64f7.png)
+
+
+### 카카오 map api
+![image](https://user-images.githubusercontent.com/87368059/169970301-fd62f1b1-6a72-44e2-8c61-1ba4de32da69.png)
+
+
+
+
 
  ### 💡 Usecase
  ![image](https://user-images.githubusercontent.com/87368059/169969107-b7deb2ad-d613-4335-8aa6-8d5d5f269ada.png)
