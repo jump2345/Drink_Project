@@ -33,6 +33,7 @@
     8. bottle / no-bottle
     9.  no-topping / chip / whipping / orero
     10. coldbrew / hotbrew / nonbrew 
+    
 
 ### 💡음료 검색
     
@@ -52,15 +53,21 @@
 ![image](https://user-images.githubusercontent.com/87368059/169968233-e9142808-7ce0-42f9-9f9b-872d677fa7a1.png)
 
 
-   로그인한 회원만 리뷰 상세보기 가능
-   글 작성자만 수정/삭제 가능
-   좋아요 리뷰 추천 기능(자신의 기능은 누르지 못함)
+     로그인한 회원만 리뷰 상세보기 가능
+     글 작성자만 수정/삭제 가능
+     좋아요 리뷰 추천 기능(자신의 기능은 누르지 못함)
+   
+   
+   
+   
 
  ### 💡로그인 회원가입
 ![image](https://user-images.githubusercontent.com/87368059/169968652-67517ee9-6fbb-4438-9fc3-85614cd1a70e.png)
 
  
 ![image](https://user-images.githubusercontent.com/87368059/169968741-086e8782-2534-4461-955b-004a4e63be0c.png)
+
+
 
 
  ### 💡 Usecase
@@ -71,25 +78,28 @@
  ![image](https://user-images.githubusercontent.com/87368059/169969220-03fcafa8-f03b-44c9-808b-691f12512f6f.png)
  
  
+ 
+ 
  ### 💡 MVC 패턴
 ![image](https://user-images.githubusercontent.com/87368059/169969317-4eeb483e-50ac-4591-99bc-1da3499cca85.png)
+
+
 
 
  ### 💡 Database 구조
  ![image](https://user-images.githubusercontent.com/87368059/169969439-2afbda9a-8314-4843-b847-10c02889680b.png)
 
 
-
-
- 
  
 
 
+## 🎈 개선 사항 
+    더 많은 음료 메뉴를 위한 데이터 크롤링
+    카카오 API를 이용한 회원 로그인
+    회원 마이페이지 필요
  
  
  
- 
-
 ## 🎈 개발 기간
     2022. 01. 24 ~ 2022. 02. 06
     
