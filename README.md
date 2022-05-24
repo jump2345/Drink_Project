@@ -16,7 +16,7 @@
 
 ## 🎈주요 기능
 
-#### 💡음료 추천
+### 💡음료 추천
 
   ![image](https://user-images.githubusercontent.com/96286052/160522943-afa8eb97-1d03-49e7-835f-955f43e5a729.png)
 
@@ -34,20 +34,61 @@
     9.  no-topping / chip / whipping / orero
     10. coldbrew / hotbrew / nonbrew 
 
-#### 💡음료 검색
+### 💡음료 검색
     
 <img width="445" alt="스크린샷 2022-03-27 오후 12 26 12" src="https://user-images.githubusercontent.com/96286052/160265361-b6004dc6-201b-4cf1-bc26-f2e536ed64f5.png">
 
     메인 화면으로써 탑메뉴를 활용해 중요메뉴를 한번에 들여다 볼 수 있고, 페이지 중앙에 음료 검색창을 배치하였습니다. 
     음료 검색은 상호명 또는 메뉴명으로 검색 가능하며, 검색 결과 목록에는 제품명, 상호명, 가격 정보를 도출합니다.
-    그외 : 로그인, 회원가입, 리뷰게시판, 관리자모드
+   
     
- #### 💡게시판
+ ### 💡게시판
     
-    ![image](https://user-images.githubusercontent.com/87368059/169967911-69b68190-87b3-45fb-9128-e68c23c0a952.png)
-    ![image](https://user-images.githubusercontent.com/87368059/169968003-492d74ce-22f1-43b8-a69c-27dfe22ed6ff.png)
+![image](https://user-images.githubusercontent.com/87368059/169968279-4d487057-bec1-4ab6-a420-00977e8a5103.png)
 
 
+    CRUD 및 댓글 창 구현
+    
+![image](https://user-images.githubusercontent.com/87368059/169968233-e9142808-7ce0-42f9-9f9b-872d677fa7a1.png)
+
+
+   로그인한 회원만 리뷰 상세보기 가능
+   글 작성자만 수정/삭제 가능
+   좋아요 리뷰 추천 기능(자신의 기능은 누르지 못함)
+
+ ### 💡로그인 회원가입
+![image](https://user-images.githubusercontent.com/87368059/169968652-67517ee9-6fbb-4438-9fc3-85614cd1a70e.png)
+
+ 
+![image](https://user-images.githubusercontent.com/87368059/169968741-086e8782-2534-4461-955b-004a4e63be0c.png)
+
+
+ ### 💡 Usecase
+ ![image](https://user-images.githubusercontent.com/87368059/169969107-b7deb2ad-d613-4335-8aa6-8d5d5f269ada.png)
+ 
+ ![image](https://user-images.githubusercontent.com/87368059/169969165-61aae6fa-2678-4e4b-b500-dc91d2e8c8b0.png)
+ 
+ ![image](https://user-images.githubusercontent.com/87368059/169969220-03fcafa8-f03b-44c9-808b-691f12512f6f.png)
+ 
+ 
+ ### 💡 MVC 패턴
+![image](https://user-images.githubusercontent.com/87368059/169969317-4eeb483e-50ac-4591-99bc-1da3499cca85.png)
+
+
+ ### 💡 Database 구조
+ ![image](https://user-images.githubusercontent.com/87368059/169969439-2afbda9a-8314-4843-b847-10c02889680b.png)
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
 
 ## 🎈 개발 기간
     2022. 01. 24 ~ 2022. 02. 06
