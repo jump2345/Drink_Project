@@ -1,5 +1,6 @@
 # 음료 추천 웹 어플리케이션 프로젝트
 ![DrinkProject2](https://user-images.githubusercontent.com/96286052/160522553-8a0548d0-c782-4e27-a2fb-1339e71a0a8d.gif)
+DB와 JSP를 연동한 웹서버 구축을 학습하고, MVC 2 패턴을 학습하고자 진행된 프로젝트입니다. 
 
 # 🎈기획 의도
   
