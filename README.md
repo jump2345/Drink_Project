@@ -2,9 +2,8 @@
 ![DrinkProject2](https://user-images.githubusercontent.com/96286052/160522553-8a0548d0-c782-4e27-a2fb-1339e71a0a8d.gif)
 
 ## 🎈기획 의도
-    다양한 브랜드의 수많은 음료 메뉴 중 선택을 어려워하는 소비자를 위해 음료 메뉴를 
-    개인이 커스터마이징 옵션으로 선택해 추천 받는 웹 어플리케이션입니다.
-
+  
+![005](https://user-images.githubusercontent.com/87368059/170904921-04a98bed-1c80-4881-ae27-5e23a1966cd6.jpg)
 
 ## 🎈개발 환경
 
@@ -19,6 +18,8 @@
 ### 💡음료 추천
 
   ![image](https://user-images.githubusercontent.com/96286052/160522943-afa8eb97-1d03-49e7-835f-955f43e5a729.png)
+  
+  ![009](https://user-images.githubusercontent.com/87368059/170904956-531b7140-caa5-47b4-95f3-1cd6cf98eaf1.jpg)
 
     10 가지의 다양한 음료 선택 옵션 중 원하는 옵션을 선택해 음료를 추천받을 수 있습니다.
     
@@ -37,20 +38,27 @@
 
 ### 💡음료 검색
     
-<img width="445" alt="스크린샷 2022-03-27 오후 12 26 12" src="https://user-images.githubusercontent.com/96286052/160265361-b6004dc6-201b-4cf1-bc26-f2e536ed64f5.png">
+![010](https://user-images.githubusercontent.com/87368059/170904977-14d7633c-71f8-4433-a7bf-e6176de54250.jpg)
+
 
     메인 화면으로써 탑메뉴를 활용해 중요메뉴를 한번에 들여다 볼 수 있고, 페이지 중앙에 음료 검색창을 배치하였습니다. 
     음료 검색은 상호명 또는 메뉴명으로 검색 가능하며, 검색 결과 목록에는 제품명, 상호명, 가격 정보를 도출합니다.
+    
+ ### 💡메뉴 조회
    
+    ![011](https://user-images.githubusercontent.com/87368059/170905071-f3c9028f-9d37-4955-9782-b26498ef37ec.jpg)
+
     
  ### 💡게시판
     
-![image](https://user-images.githubusercontent.com/87368059/169968279-4d487057-bec1-4ab6-a420-00977e8a5103.png)
+
+![012](https://user-images.githubusercontent.com/87368059/170905091-95b6fcb0-65b3-4f1f-82d4-5fa2fc48dcd6.jpg)
 
 
     CRUD 및 댓글 창 구현
     
-![image](https://user-images.githubusercontent.com/87368059/169968233-e9142808-7ce0-42f9-9f9b-872d677fa7a1.png)
+
+![013](https://user-images.githubusercontent.com/87368059/170905116-dffd45cd-3228-451e-8309-19e928be58c5.jpg)
 
 
      로그인한 회원만 리뷰 상세보기 가능
@@ -62,17 +70,18 @@
    
 
  ### 💡로그인 회원가입
-![image](https://user-images.githubusercontent.com/87368059/169968652-67517ee9-6fbb-4438-9fc3-85614cd1a70e.png)
 
- 
-![image](https://user-images.githubusercontent.com/87368059/169968741-086e8782-2534-4461-955b-004a4e63be0c.png)
+![015](https://user-images.githubusercontent.com/87368059/170905145-bc7f9dbc-cc97-42e5-8f8a-c824139c86e6.jpg)
 
+![016](https://user-images.githubusercontent.com/87368059/170905146-33228a1d-74d1-4570-ae10-c3f7ab98bece.jpg)
 
 
  ### 💡관리자 모드
- ![image](https://user-images.githubusercontent.com/87368059/169970190-7f293401-e756-438f-af09-6887fae2b015.png)
- 
- ![image](https://user-images.githubusercontent.com/87368059/169970236-692fa3a9-a9b5-4c3f-a71f-faa3e4ac64f7.png)
+
+![017](https://user-images.githubusercontent.com/87368059/170905156-cd3f8b0d-0db0-44e2-8cfe-bd6672a43431.jpg)
+
+![018](https://user-images.githubusercontent.com/87368059/170905162-508ff63f-fbbc-4d5c-9bbc-e82118e79aa5.jpg)
+
 
 
 ### 💡카카오 map api
@@ -83,26 +92,27 @@
 
 
  ### 💡 Usecase
- ![image](https://user-images.githubusercontent.com/87368059/169969107-b7deb2ad-d613-4335-8aa6-8d5d5f269ada.png)
- 
- ![image](https://user-images.githubusercontent.com/87368059/169969165-61aae6fa-2678-4e4b-b500-dc91d2e8c8b0.png)
- 
- ![image](https://user-images.githubusercontent.com/87368059/169969220-03fcafa8-f03b-44c9-808b-691f12512f6f.png)
- 
+
+ ![019](https://user-images.githubusercontent.com/87368059/170905183-3f2fc4b2-3333-4394-86d1-24734067e295.jpg)
+![020](https://user-images.githubusercontent.com/87368059/170905186-281eb465-29b6-4b20-983f-e5236f70d84a.jpg)
+![021](https://user-images.githubusercontent.com/87368059/170905187-767553d3-5433-4a0a-84b8-99ddb3bd25ca.jpg)
+
  
  
  
  ### 💡 MVC 패턴
-![image](https://user-images.githubusercontent.com/87368059/169969317-4eeb483e-50ac-4591-99bc-1da3499cca85.png)
+
+![022](https://user-images.githubusercontent.com/87368059/170905223-f9780b71-bcc1-4a7a-aa53-e4f5162976f0.jpg)
 
 
 
 
  ### 💡 Database 구조
- ![image](https://user-images.githubusercontent.com/87368059/169969439-2afbda9a-8314-4843-b847-10c02889680b.png)
-
-
  
+
+
+ ![023](https://user-images.githubusercontent.com/87368059/170905203-bceb8064-ba91-42ae-9f8a-0fe54cd609fc.jpg)
+
 
 
 ## 🎈 개선 사항 
@@ -116,7 +126,9 @@
     2022. 01. 24 ~ 2022. 02. 06
     
 ## 🎈 참여 멤버
+     ![002](https://user-images.githubusercontent.com/87368059/170904876-afbb4d9c-f9e7-414f-a767-46852b3c8af6.jpg)
      🌪 이신혜(https://github.com/shhh-33)
      🐑 최윤선(https://github.com/Es-YES-Ye)
      🦦 최현정(https://github.com/hyunjung930)
+
     
