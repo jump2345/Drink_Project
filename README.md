@@ -1,11 +1,11 @@
 # 음료 추천 웹 어플리케이션 프로젝트
 ![DrinkProject2](https://user-images.githubusercontent.com/96286052/160522553-8a0548d0-c782-4e27-a2fb-1339e71a0a8d.gif)
 
-## 🎈기획 의도
+# 🎈기획 의도
   
 ![005](https://user-images.githubusercontent.com/87368059/170904921-04a98bed-1c80-4881-ae27-5e23a1966cd6.jpg)
 
-## 🎈개발 환경
+# 🎈개발 환경
 
     개발 툴 : JDK8, Eclipse(2019 -12), Oracle(SQL developer), Apache Tomcat(9.0)
     주요 기술 : JAVA, JavaScript, JSP, J-Query, Ajax, HTML5/CSS3
@@ -13,9 +13,9 @@
  
   
 
-## 🎈주요 기능
+# 🎈주요 기능
 
-### 💡음료 추천
+## 💡음료 추천
 
   ![image](https://user-images.githubusercontent.com/96286052/160522943-afa8eb97-1d03-49e7-835f-955f43e5a729.png)
   
@@ -36,7 +36,7 @@
     10. coldbrew / hotbrew / nonbrew 
     
 
-### 💡음료 검색
+## 💡음료 검색
     
 ![010](https://user-images.githubusercontent.com/87368059/170904977-14d7633c-71f8-4433-a7bf-e6176de54250.jpg)
 
@@ -44,13 +44,13 @@
     메인 화면으로써 탑메뉴를 활용해 중요메뉴를 한번에 들여다 볼 수 있고, 페이지 중앙에 음료 검색창을 배치하였습니다. 
     음료 검색은 상호명 또는 메뉴명으로 검색 가능하며, 검색 결과 목록에는 제품명, 상호명, 가격 정보를 도출합니다.
     
- ### 💡메뉴 조회
+ ## 💡메뉴 조회
    
    ![011](https://user-images.githubusercontent.com/87368059/170905346-bfbd24fd-be60-4c1e-98bb-a45c9d0fe494.jpg)
 
 
     
- ### 💡게시판
+ ## 💡게시판
     
 
 ![012](https://user-images.githubusercontent.com/87368059/170905091-95b6fcb0-65b3-4f1f-82d4-5fa2fc48dcd6.jpg)
@@ -70,14 +70,14 @@
    
    
 
- ### 💡로그인 회원가입
+ ## 💡로그인 회원가입
 
 ![015](https://user-images.githubusercontent.com/87368059/170905145-bc7f9dbc-cc97-42e5-8f8a-c824139c86e6.jpg)
 
 ![016](https://user-images.githubusercontent.com/87368059/170905146-33228a1d-74d1-4570-ae10-c3f7ab98bece.jpg)
 
 
- ### 💡관리자 모드
+ ## 💡관리자 모드
 
 ![017](https://user-images.githubusercontent.com/87368059/170905156-cd3f8b0d-0db0-44e2-8cfe-bd6672a43431.jpg)
 
@@ -85,14 +85,14 @@
 
 
 
-### 💡카카오 map api
+## 💡카카오 map api
 ![image](https://user-images.githubusercontent.com/87368059/169970301-fd62f1b1-6a72-44e2-8c61-1ba4de32da69.png)
 
 
 
 
 
- ### 💡 Usecase
+ ## 💡 Usecase
 
  ![019](https://user-images.githubusercontent.com/87368059/170905183-3f2fc4b2-3333-4394-86d1-24734067e295.jpg)
 ![020](https://user-images.githubusercontent.com/87368059/170905186-281eb465-29b6-4b20-983f-e5236f70d84a.jpg)
@@ -108,7 +108,7 @@
 
 
 
- ### 💡 Database 구조
+ ## 💡 Database 구조
  
 
 
@@ -116,17 +116,17 @@
 
 
 
-## 🎈 개선 사항 
+# 🎈 개선 사항 
     더 많은 음료 메뉴를 위한 데이터 크롤링
     카카오 API를 이용한 회원 로그인
     회원 마이페이지 필요
  
  
  
-## 🎈 개발 기간
+# 🎈 개발 기간
     2022. 01. 24 ~ 2022. 02. 06
     
-## 🎈 참여 멤버
+# 🎈 참여 멤버
      ![002](https://user-images.githubusercontent.com/87368059/170904876-afbb4d9c-f9e7-414f-a767-46852b3c8af6.jpg)
      🌪 이신혜(https://github.com/shhh-33)
      🐑 최윤선(https://github.com/Es-YES-Ye)
