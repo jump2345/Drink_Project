@@ -109,7 +109,6 @@
  
  
  ### 💡 MVC 패턴
-
 ![022](https://user-images.githubusercontent.com/87368059/170905223-f9780b71-bcc1-4a7a-aa53-e4f5162976f0.jpg)
 
 
@@ -134,7 +133,7 @@
     2022. 01. 24 ~ 2022. 02. 06
     
 # 🎈 참여 멤버
-     ![002](https://user-images.githubusercontent.com/87368059/170904876-afbb4d9c-f9e7-414f-a767-46852b3c8af6.jpg)
+ ![002](https://user-images.githubusercontent.com/87368059/170904876-afbb4d9c-f9e7-414f-a767-46852b3c8af6.jpg)
      🌪 이신혜(https://github.com/shhh-33)
      🐑 최윤선(https://github.com/Es-YES-Ye)
      🦦 최현정(https://github.com/hyunjung930)
