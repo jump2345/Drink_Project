@@ -44,6 +44,8 @@
     메인 화면으로써 탑메뉴를 활용해 중요메뉴를 한번에 들여다 볼 수 있고, 페이지 중앙에 음료 검색창을 배치하였습니다. 
     음료 검색은 상호명 또는 메뉴명으로 검색 가능하며, 검색 결과 목록에는 제품명, 상호명, 가격 정보를 도출합니다.
     
+    
+    
  ## 💡메뉴 조회
    
    ![011](https://user-images.githubusercontent.com/87368059/170905346-bfbd24fd-be60-4c1e-98bb-a45c9d0fe494.jpg)
@@ -77,16 +79,21 @@
 ![016](https://user-images.githubusercontent.com/87368059/170905146-33228a1d-74d1-4570-ae10-c3f7ab98bece.jpg)
 
 
+
+
  ## 💡관리자 모드
+ 
+![016](https://user-images.githubusercontent.com/87368059/170905568-bb4b80a2-133d-40ae-85d6-d80f304f432f.jpg)
 
 ![017](https://user-images.githubusercontent.com/87368059/170905156-cd3f8b0d-0db0-44e2-8cfe-bd6672a43431.jpg)
 
-![018](https://user-images.githubusercontent.com/87368059/170905162-508ff63f-fbbc-4d5c-9bbc-e82118e79aa5.jpg)
+
 
 
 
 ## 💡카카오 map api
-![image](https://user-images.githubusercontent.com/87368059/169970301-fd62f1b1-6a72-44e2-8c61-1ba4de32da69.png)
+
+![018](https://user-images.githubusercontent.com/87368059/170905162-508ff63f-fbbc-4d5c-9bbc-e82118e79aa5.jpg)
 
 
 
