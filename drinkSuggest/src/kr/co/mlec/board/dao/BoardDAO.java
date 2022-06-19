@@ -352,8 +352,6 @@ public class BoardDAO {
 	// 첨부파일 CRUD //
 	///////////////////////////////////////////////////////////////////
 	
-	///★윤서Q))))쿼리에 no는 뭐고 comNo는 무엇?? 쿼리 오류날수 있음... 밑에 다시 확인할 것.
-
 	public void insertFile(BoardFileVO fileVO) {
 
 		StringBuilder sql = new StringBuilder();
@@ -443,8 +441,7 @@ public class BoardDAO {
 			pstmt.setInt(6, board.getReNo() + 1);
 			pstmt.setInt(7, board.getReLevel() + 1);
 
-			//부모를 받아서..... 어쩌고저쩌고...... 그걸 한 다음에 dao를 따로 만들어야....
-			//쿼리 수정해야함... 어쩌면 새글 등록도.....
+			//부모를 받아서
 			pstmt.executeUpdate();
 
 		} catch (Exception e) {
@@ -457,7 +454,6 @@ public class BoardDAO {
 
 	/*
 	 * 그룹 번호를 찾아오기 (부모 글을 찾아 답글 달기) 
-	 * ??????????????????
 	 */
 	
 	public BoardVO selectgroupNo(int comNo, int reNo) {
@@ -821,7 +817,6 @@ public int  insertBoardReplyUpdate(BoardVO board) {
 	
 
 }
-
 
 
 
