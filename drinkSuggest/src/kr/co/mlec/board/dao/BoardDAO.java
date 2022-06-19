@@ -135,16 +135,17 @@ public class BoardDAO {
 				StringBuilder sql = new StringBuilder();
 				sql.append("insert into comment_tb( comNo, comTitle, id, comContent, groupNo) ");
 				//sql.append("  values( ?, ?, ?, ?) ");
-				sql.append(" values(seq_com_no.nextval, ?,?, ?, ?) ");
+				//sql.append(" values(seq_com_no.nextval, ?,?, ?, ?) ");
+				sql.append(" values(?, ?,?, ?, ?) ");
 
 				pstmt = conn.prepareStatement(sql.toString());
 
 			
-				//pstmt.setInt(1, board.getComNo());
-				pstmt.setString(1, board.getComTitle());
-				pstmt.setString(2,  board.getId());
-				pstmt.setString(3, board.getComContent());
-				pstmt.setInt(4, board.getGroupNo());
+				pstmt.setInt(1, board.getComNo());
+				pstmt.setString(2, board.getComTitle());
+				pstmt.setString(3,  board.getId());
+				pstmt.setString(4, board.getComContent());
+				pstmt.setInt(5, board.getGroupNo());
 
 
 			pstmt.executeUpdate();
@@ -352,6 +353,7 @@ public class BoardDAO {
 	// 첨부파일 CRUD //
 	///////////////////////////////////////////////////////////////////
 	
+
 	public void insertFile(BoardFileVO fileVO) {
 
 		StringBuilder sql = new StringBuilder();
@@ -441,7 +443,7 @@ public class BoardDAO {
 			pstmt.setInt(6, board.getReNo() + 1);
 			pstmt.setInt(7, board.getReLevel() + 1);
 
-			//부모를 받아서
+			//
 			pstmt.executeUpdate();
 
 		} catch (Exception e) {
@@ -454,6 +456,7 @@ public class BoardDAO {
 
 	/*
 	 * 그룹 번호를 찾아오기 (부모 글을 찾아 답글 달기) 
+
 	 */
 	
 	public BoardVO selectgroupNo(int comNo, int reNo) {
